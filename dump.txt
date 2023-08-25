@@ -1,0 +1,20 @@
+//   const { data, loading, error } = useNotificationsQuery();
+  //   const [
+  //     createNotification,
+  //     { loading: createNotificationLoading, error: createNotificationError },
+  //   ] = useCreateNotificationMutation();
+
+  //   if (loading) return "Loading..";
+  //   if (error) return "Something went wrong :(";
+
+  //   const submitHandler = async (e) => {
+  //     e.preventDefault();
+  //     const name = e.target.name.value;
+  //     const type = e.target.type.value;
+  //     console.log({ name, type });
+
+  //     await createNotification({ variables: { input: { name, type } } });
+  //     console.log("createNotificationError", createNotificationError);
+
+  //     e.target.reset();
+  //   };
