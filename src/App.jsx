@@ -1,10 +1,8 @@
 import { Notification } from "./components/Notification";
 
 function App() {
-  console.log('test')
   return (
     <>
-
       <Notification />
     </>
   );
